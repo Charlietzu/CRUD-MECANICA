@@ -93,8 +93,11 @@
 						<div class="row">
 							<div class="col">
 								<h4>Pesquisar Orçamentos</h4>
-								<hr />
-
+                                <div class="row">
+                                    <div>
+                                    </div>
+                                </div>
+                                <hr>
 								<? foreach($tarefas as $indice => $tarefa) { ?>
 									<div class="row mb-3 d-flex align-items-center tarefa">
 										<div class="col-sm-9" id="tarefa_<?= $tarefa->id ?>">
