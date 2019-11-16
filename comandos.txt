@@ -1,0 +1,6 @@
+laravel new CRUD-MECANICA
+php artisan serve
+php artisan make:migration create_orcamentos_table
+php artisan migrate
+php artisan make:model Orcamento
+php artisan make:controller OrcamentoController
