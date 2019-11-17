@@ -56,4 +56,8 @@ class OrcamentoController extends Controller
     public function show($id){
 
     }
+
+    public function search(Request $request){
+        
+    }
 }

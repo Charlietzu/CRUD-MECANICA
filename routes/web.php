@@ -12,7 +12,7 @@
 */
 
 Route::get('/', function () {
-    return view('welcome');
+    return view('orcamento.welcome');
 });
-
+//Route::get('orcamento.search','OrcamentoController@search');
 Route::resource('orcamento', 'OrcamentoController');
