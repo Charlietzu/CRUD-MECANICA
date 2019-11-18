@@ -11,7 +11,7 @@
     @foreach ($orcamentos as $orcamento)
         <div class="row mb-3 d-flex align-items-center">
             <div class="col-sm-9"><strong>Cliente:</strong> {{ $orcamento->cliente }}</div>
-            <div class="col-sm-9"><strong>Data/Hora dor orçamento:</strong> {{ $orcamento->data }}</div>
+            <div class="col-sm-9"><strong>Data/Hora do orçamento:</strong> {{ $orcamento->data }}</div>
             <div class="col-sm-9"><strong>Vendedor:</strong> {{ $orcamento->vendedor }}</div>
             <div class="col-sm-9"><strong>Descrição do pedido:</strong> {{ $orcamento->descricao }}</div>
             <div class="col-sm-9"><strong>Valor orçado:</strong> {{ $orcamento->valor }}</div>
